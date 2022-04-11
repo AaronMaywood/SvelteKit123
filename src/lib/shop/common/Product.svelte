@@ -8,7 +8,7 @@ export let description;
 	<div class="product-container">
 		<figure><img {src} alt="" /></figure>
 		<div>
-			<h3>{heading}</h3>
+			<h1>{heading}</h1>
 			<span class="price">{price}</span>
 			<p>{description}</p>
 			<button>Add to Cart</button>
