@@ -7,14 +7,26 @@
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
     "prepare": "svelte-kit sync",
-    "test": "playwright test"
+    "test": "playwright test",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.9",
     "@playwright/test": "^1.20.0",
+    "@storybook/addon-actions": "^6.5.0-alpha.61",
+    "@storybook/addon-essentials": "^6.5.0-alpha.61",
+    "@storybook/addon-links": "^6.5.0-alpha.61",
+    "@storybook/addon-svelte-csf": "^2.0.1",
+    "@storybook/builder-vite": "^0.1.27",
+    "@storybook/svelte": "^6.5.0-alpha.61",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/adapter-static": "^1.0.0-next.29",
     "@sveltejs/kit": "next",
-    "svelte": "^3.44.0"
+    "babel-loader": "^8.2.4",
+    "svelte": "^3.47.0",
+    "svelte-loader": "^3.1.2"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {}
 }
