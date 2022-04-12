@@ -1,0 +1,23 @@
+# このリポジトリーについて
+
+本リポジトリーの著作権は株式会社アジャストが保有しています。
+オープンライセンスはありません。
+利用に関しては https://adjustacademy.com/ までお問い合わせ下さい。
+
+(C) 2022 ADjust
+
+https://adjust.ne.jp/
+https://adjustacademy.com/
+
+# The Brooklyn Garden について
+
+src/routes/shop/ 及び src/lib/shop は https://codepen.io/una/pen/mdOgyVL を元に実装しました。
+オリジナルのライセンスを掲示します。
+
+Copyright (c) 2022 by Una Kravets (https://codepen.io/una/pen/mdOgyVL)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
