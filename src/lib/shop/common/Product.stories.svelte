@@ -26,7 +26,10 @@ const products = [
 
 <svelte:head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<!--
+	.storybook/test.css
 	<link rel="stylesheet" href="./test.css">
+	-->
 	<script src="https://unpkg.com/container-query-polyfill/cqfill.iife.min.js"></script>
     <style>
 	.product {
