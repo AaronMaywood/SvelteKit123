@@ -99,8 +99,8 @@ const products = [
 	<Product />
 </Story>
 
-<Story name="@container 大 幅351px以上">
-	<div class="guide"><p>351px の場合</p></div>
+<Story name="@container 大 幅350px以上">
+	<div class="guide"><p>350px の場合</p></div>
 	<div class="big">
 		<Product {...product} />
 	</div>
@@ -177,7 +177,7 @@ const products = [
 }
 
 .big {
-	width: 351px;
+	width: 350px;
 }
 
 .middle {
