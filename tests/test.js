@@ -1,6 +1,8 @@
-import { expect, test } from '@playwright/test';
+import { test, expect } from '@playwright/test';
 
-test('index page has expected h1', async ({ page }) => {
-	await page.goto('/');
-	expect(await page.textContent('h1')).toBe('Welcome to SvelteKit');
+test('devices', async ({ page, browserName }) => {
+	await page.goto('http://localhost:3000/shop');
+	expect(await page.screenshot({fullPage:true})).toMatchSnapshot(`shop-index.png`);
+	await page.goto('http://localhost:3000/welcome');
+	expect(await page.screenshot({fullPage:true})).toMatchSnapshot(`welcome.png`);
 });
